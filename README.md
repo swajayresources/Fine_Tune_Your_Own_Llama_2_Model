@@ -1,7 +1,7 @@
 # Fine_Tune_Your_Own_Llama_2_Model
-**Fine-Tuning Llama 2 (7 billion parameters) with VRAM Limitations and QLoRA:**
+## Fine-Tuning Llama 2 (7 billion parameters) with VRAM Limitations and QLoRA:**
 
-In this section, the goal is to fine-tune a Llama 2 model with 7 billion parameters using a T4 GPU with 16 GB of VRAM. Given the VRAM limitations, traditional fine-tuning is not feasible, necessitating parameter-efficient fine-tuning (PEFT) techniques like LoRA or QLoRA. The chosen approach is QLoRA, which employs 4-bit precision to drastically reduce VRAM usage.
+* In this section, the goal is to fine-tune a Llama 2 model with 7 billion parameters using a T4 GPU with 16 GB of VRAM. Given the VRAM limitations, traditional fine-tuning is not feasible, necessitating parameter-efficient fine-tuning (PEFT) techniques like LoRA or QLoRA. The chosen approach is QLoRA, which employs 4-bit precision to drastically reduce VRAM usage.
 
 The following steps will be executed:
 
